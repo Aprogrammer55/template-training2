@@ -86,7 +86,8 @@ p {
 }
 
 .page .container .menu .content .name {
-    word-spacing: 2000px;
+    display: flex;
+    flex-direction: column;
     font-weight: 700;
     font-family: 'Fraunces', serif;
     line-height: 1;
@@ -132,6 +133,7 @@ p {
     color: white;
     cursor: pointer;
     border-radius: 6px;
+    position: sticky;
 }
 
 .page .container .menu .content button:hover {
